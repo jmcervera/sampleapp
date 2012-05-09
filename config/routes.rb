@@ -1,4 +1,6 @@
 Sampleapp::Application.routes.draw do
+  resources :products
+
   resources :posts
   root to: 'posts#index'
 
